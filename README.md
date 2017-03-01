@@ -1,5 +1,8 @@
 # tog-fe
 
+[![Vue.js](https://img.shields.io/badge/vue.js-v2.2-blue.svg)](https://www.npmjs.com/package/vue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 > A Vue.js project
 
 ## Build Setup
@@ -27,4 +30,10 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 技术栈
+
+* vue.js
+* vue-router
+* scss
+* webpack
+* eslint(airbnb 规范)
