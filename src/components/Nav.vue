@@ -18,6 +18,7 @@
     @import "../styles/util.scss";
     .component-nav {
         @include size(auto, 100%);
+        display: inline-block;
 
         & > ul {
             display: flex;

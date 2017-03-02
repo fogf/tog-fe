@@ -3,9 +3,9 @@
     height: $height;
 }
 
-@mixin animate-bgColor($color, $time) {
-    transition: background-color $time;
-    &:hover {
-        background-color: $color;
+@mixin animate($status, $property, $value, $time) {
+    transition: $property $time;
+    &:#{$status} {
+        #{$property}: $value;
     }
 }

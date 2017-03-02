@@ -24,13 +24,14 @@
         }
         cursor: pointer;
         box-sizing: border-box;
-        @include animate-bgColor(#f1f1f1, 0.5s);
+        @include animate(hover, background-color, #f1f1f1, 0.5s);
 
         & > p {
             @include size(100%, 100%);
             margin: 0;
             text-align: center;
-            line-height: 62px;
+            padding-top: 6px;
+            line-height: 70px - 6px * 2;
             font-size: 18px;
             box-sizing: border-box;
             &.selected {
