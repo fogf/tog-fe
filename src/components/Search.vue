@@ -15,7 +15,7 @@
     .component-search {
         display: flex;
         align-items: center;
-        margin-left: 100px;
+        margin-left: 60px;
 
         & > input {
             @include size(350px, 36px);

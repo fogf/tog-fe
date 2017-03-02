@@ -14,6 +14,9 @@
 
 </script>
 
-<style>
-
+<style lang="scss">
+    @import "./styles/util.scss";
+    body, html {
+        @include size(100%, 100%);
+    }
 </style>

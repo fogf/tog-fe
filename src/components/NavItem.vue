@@ -1,6 +1,6 @@
 <template>
     <li class="component-nav-item">
-        <p :class="{ selected: selected }">
+        <p :class="{ selected }">
             {{ name }}
         </p>
     </li>
