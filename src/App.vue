@@ -1,11 +1,17 @@
 <template>
-    <h1>Hello Tog</h1>
+    <Header></Header>
 </template>
 
 <script>
+    import { Header } from 'features';
+
     export default {
         name: 'app',
+        components: {
+            Header,
+        },
     };
+
 </script>
 
 <style>

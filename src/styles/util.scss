@@ -1,0 +1,11 @@
+@mixin size($widht: auto, $height: auto) {
+    width: $widht;
+    height: $height;
+}
+
+@mixin animate-bgColor($color, $time) {
+    transition: background-color $time;
+    &:hover {
+        background-color: $color;
+    }
+}

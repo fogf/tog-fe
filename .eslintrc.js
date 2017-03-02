@@ -14,6 +14,11 @@ module.exports = {
   plugins: [
     'html'
   ],
+  validate: [
+    'javascript',
+    'javascriptreact',
+    'vue'
+  ],
   // check if imports actually resolve
   'settings': {
     'import/resolver': {
