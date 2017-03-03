@@ -1,18 +1,18 @@
 <template>
     <div class="app">
         <TogHeader></TogHeader>
-        <TogIndex></TogIndex>
+        <TogNewsList></TogNewsList>
     </div>
 </template>
 
 <script>
-    import { TogHeader, TogIndex } from 'features';
+    import { TogHeader, TogNewsList } from 'features';
 
     export default {
         name: 'app',
         components: {
             TogHeader,
-            TogIndex,
+            TogNewsList,
         },
     };
 

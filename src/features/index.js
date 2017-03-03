@@ -1,8 +1,8 @@
 import TogHeader from './Header';
-import TogIndex from './Index.vue';
+import TogNewsList from './NewsList';
 
 /* eslint-disable import/prefer-default-export */
 export {
     TogHeader,
-    TogIndex,
+    TogNewsList,
 };

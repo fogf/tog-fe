@@ -8,7 +8,7 @@
     import { TogDividerBar } from 'components';
 
     export default {
-        name: 'TogIndex',
+        name: 'TogNewsList',
         components: {
             TogDividerBar,
         },
