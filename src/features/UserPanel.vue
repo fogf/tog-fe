@@ -1,17 +1,19 @@
 <template>
     <div class="feature-user-panel">
         <Avatar size="52" circle="true"></Avatar>
-        <p>这是用户昵称</p>
+        <p class="nick">这是用户昵称</p>
+        <Dropdown class="dropdown"></Dropdown>
     </div>
 </template>
 
 <script>
-    import { Avatar } from 'components';
+    import { Avatar, Dropdown } from 'components';
 
     export default {
         name: 'UserPanel',
         components: {
             Avatar,
+            Dropdown,
         },
     };
 </script>
@@ -24,9 +26,21 @@
         align-items: center;
         justify-content: center;
         color: #333;
+        position: relative;
 
-        & > p {
+        & > .nick {
             margin-left: 12px;
+        }
+        & > .dropdown {
+            position: absolute;
+            top: 70px;
+            display: none;
+        }
+        &:hover {
+            background-color: #F7F7F7;
+            & > .dropdown {
+                display: block;
+            }
         }
     }
 </style>
