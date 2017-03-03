@@ -1,6 +1,6 @@
-import Header from './Header';
+import TogHeader from './Header';
 
 /* eslint-disable import/prefer-default-export */
 export {
-    Header,
+    TogHeader,
 };

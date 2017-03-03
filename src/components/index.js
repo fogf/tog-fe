@@ -1,13 +1,13 @@
-import Nav from './Nav';
-import NavItem from './NavItem';
-import Search from './Search';
-import Avatar from './Avatar';
-import Dropdown from './Dropdown';
+import TogNav from './Nav';
+import TogNavItem from './NavItem';
+import TogSearch from './Search';
+import TogAvatar from './Avatar';
+import TogDropdown from './Dropdown';
 
 export {
-    Nav,
-    NavItem,
-    Search,
-    Avatar,
-    Dropdown,
+    TogNav,
+    TogNavItem,
+    TogSearch,
+    TogAvatar,
+    TogDropdown,
 };

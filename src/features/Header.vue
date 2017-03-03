@@ -1,29 +1,29 @@
 <template>
     <header class="feature-header">
         <div class="nav-search-container">
-            <Nav>
-                <NavItem name="首页" selected="true"></NavItem>
-                <NavItem name="电影"></NavItem>
-                <NavItem name="游戏"></NavItem>
-                <NavItem name="书籍"></NavItem>
-            </Nav>
-            <Search></Search>
+            <TogNav>
+                <TogNavItem name="首页" selected="true"></TogNavItem>
+                <TogNavItem name="电影"></TogNavItem>
+                <TogNavItem name="游戏"></TogNavItem>
+                <TogNavItem name="书籍"></TogNavItem>
+            </TogNav>
+            <TogSearch></TogSearch>
         </div>
-        <UserPanel></UserPanel>
+        <TogUserPanel></TogUserPanel>
     </header>
 </template>
 
 <script>
-    import { Nav, NavItem, Search } from 'components';
-    import UserPanel from './UserPanel';
+    import { TogNav, TogNavItem, TogSearch } from 'components';
+    import TogUserPanel from './UserPanel';
 
     export default {
-        name: 'Header',
+        name: 'TogHeader',
         components: {
-            Nav,
-            NavItem,
-            Search,
-            UserPanel,
+            TogNav,
+            TogNavItem,
+            TogSearch,
+            TogUserPanel,
         },
     };
 </script>

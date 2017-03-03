@@ -1,19 +1,19 @@
 <template>
     <div class="feature-user-panel">
-        <Avatar size="52" circle="true"></Avatar>
+        <TogAvatar size="52" circle="true"></TogAvatar>
         <p class="nick">这是用户昵称</p>
-        <Dropdown class="dropdown"></Dropdown>
+        <TogDropdown class="dropdown"></TogDropdown>
     </div>
 </template>
 
 <script>
-    import { Avatar, Dropdown } from 'components';
+    import { TogAvatar, TogDropdown } from 'components';
 
     export default {
-        name: 'UserPanel',
+        name: 'TogUserPanel',
         components: {
-            Avatar,
-            Dropdown,
+            TogAvatar,
+            TogDropdown,
         },
     };
 </script>

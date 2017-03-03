@@ -1,14 +1,14 @@
 <template>
-    <Header></Header>
+    <TogHeader></TogHeader>
 </template>
 
 <script>
-    import { Header } from 'features';
+    import { TogHeader } from 'features';
 
     export default {
         name: 'app',
         components: {
-            Header,
+            TogHeader,
         },
     };
 

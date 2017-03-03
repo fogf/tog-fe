@@ -8,7 +8,7 @@
 
 <script>
     export default {
-        name: 'NavItem',
+        name: 'TogNavItem',
         props: ['name', 'selected'],
     };
 </script>
